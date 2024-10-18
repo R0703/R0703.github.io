@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    background-color: #262223;
+}
+
+h1{
+    padding-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: white;
+}
+
+h2{
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    color: white;
+}
+
+p{
+    padding-left:30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* ==============================
+     MOVIES.HTML
+    ============================= */
+.moviebg{
+    width:1440px;
+    height: 3976px;
+    background-color: #262223;
+}
+
+.LOU-img{
+    padding-left: 20px;
+}
+
+.more-info-btn{
+    background-color: white;
+    border-color: #a58974;
+    border-style: solid;
+    border-width: 1px;
+    color: #262223;
+    border-radius: 2px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+  
+    transition: background-color 0.15s,
+      color 0.15s;
+  }
+  
+  .more-info-btn:hover {
+    background-color: #DDC6B6;
+    color: white;
+  }
+  
+  .more-info-btn:active {
+    opacity: 0.7;
+  }
+
+.categories-title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 21px;
+}
+
+.animation-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 45px;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.tv-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 45px;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.action-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 45px;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.comedy-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 45px;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.animation-pic{
+    padding-left: 30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    column-gap: 20px;
+    margin-top: 22;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.tv-pic{
+    padding-left: 30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    column-gap: 20px;
+    margin-top: 22;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.action-pic{
+    padding-left: 30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    column-gap: 20px;
+    margin-top: 22;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.comedy-pic{
+    padding-left: 30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    column-gap: 20px;
+    margin-top: 22;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+ /* ==============================
+     NEW AND POPULAR
+    ============================= */
+
+.popular-div{
+    height: 220px;
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 260px  700px;
+    margin-bottom: 200px;
+    margin-left: 80px;
+}
+
+.pop-2 h1{
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.pop-2 h2{
+    margin-bottom: 25px;
+}
+
+.pop-2 span{
+    font-size: 50px;
+    margin-right: 8px;
+    color: white;
+}
+
+.pop-2 span:hover{
+    font-size: 50px;
+    margin-right: 8px;
+    color: rgb(152, 202, 255);
+    cursor: pointer;
+}
+
+.pop-2 span:active{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+/*=======================
+     HOME CSS 
+ ========================*/
+
+ .jumbotron{
+    width:1500px;
+ }
+
+ .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container img {
+    display: block;
+  }
+
+  .image-container h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+  }
+
+  .image-container p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+  }
+
+  .button-overlay {
+    position: absolute;
+    top: 80%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+  }
+
+ .signup-btn{
+    background-color: #9e836f;
+    border-color: #755c49;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 20px 40px;
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    opacity: 0.75;
+    box-shadow: 3px 3px 10px#262223;
+
+    transition: background-color 0.15s,
+      color 0.15s;
+ }
+
+ .kids-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 21px;
+ }
+
+ .kids-movie{
+    padding-left: 30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px 350px;
+    column-gap: 20px;
+    margin-top: 22;
+    border-radius: 10px;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+ }
+
+ .content-overlay h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .content-overlay p {
+    font-size: 16px;
+  }
+
+ .signup-btn:hover {
+    background-color: #DDC6B6;
+    color: white;
+  }
+  
+  .signup-btn:active {
+    opacity: 0.7;
+  }
+
+  .more-movie-link{
+    text-decoration: none;
+    color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    padding: 30px;
+    font-size: 18px;
+  }
+
+/*=======================
+     DETAILS CSS 
+ ========================*/
+ .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .column {
+    padding: 8px;
+  }
+
+  .column img {
+    height: 400px;
+  }
+
+  .column p{
+    font-size: 15px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0%;
+    margin: 0;
+    padding-bottom: 32px;
+  }
+
+  .video-container {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .video-container img{
+    height: 200px;
+  }
+
+  .video-image {
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+
+  .time-duration {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    padding: 3px 5px;
+    background-color: white;
+    opacity: 0.7;
+    color: #000;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+  }
+
+  .video-info {
+    flex: 1 1 auto;
+  }
+
+  .video-info h3{
+    font-size: 21px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .video-info p{
+    font-size: 16px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .video-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .video-description {
+    font-size: 14px;
+    color: #888;
+    padding: 0px;
+    margin: 0px;
+  }
+
+/* ==============================
+     REGISTER
+    ============================= */
+    
+    .register-bg{
+      background-image:url("assets/regisbg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 20px;
+    }
+
+    .kotak{
+      width: 650px;
+      height: 300px;
+      background: hsla(239, 94%, 14%, 1);
+      background: linear-gradient(225deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+      background: -moz-linear-gradient(225deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+      background: -webkit-linear-gradient(225deg, hsla(239, 94%, 14%, 1) 0%, hsla(190, 68%, 50%, 1) 100%);
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#020344", endColorstr="#28b8d5", GradientType=1 );
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 20px;
+      box-shadow: 3px 3px 10px #1c191a;
+    }
+
+    .toHome-btn{
+      background-color: #9e836f;
+      border-color: #755c49;
+      border-style: solid;
+      border-width: 1px;
+      color: #ffffff;
+      border-radius: 5px;
+      cursor: pointer;
+      padding: 10px 15px;
+      margin-top: 30px;
+      margin-left: 20px;
+      font-size: 18px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      display: inline-block;
+      opacity: 0.75;
+      box-shadow: 3px 3px 10px#262223;
+  
+      transition: background-color 0.15s,
+        color 0.15s;
+   }
+
+   .toHome-btn:hover {
+    background-color: #DDC6B6;
+    color: white;
+  }
+  
+  .toHome-btn:active {
+    opacity: 0.7;
+  }
+
+   .submit-btn{
+    background-color: #9e836f;
+    border-color: #755c49;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 12px;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    opacity: 0.75;
+    box-shadow: 3px 3px 10px#262223;
+
+    transition: background-color 0.15s,
+      color 0.15s;
+   }
+
+   .submit-btn:hover {
+    background-color: #DDC6B6;
+    color: white;
+  }
+  
+  .submit-btn:active {
+    opacity: 0.7;
+  }
+  

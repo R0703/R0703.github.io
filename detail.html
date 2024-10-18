@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JetFlix - Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <div class="header">
+        <div class="div-logo-section"> <img class="logo-small"src="assets/jetflix logo-01.png"> </div>
+            <div class="div-middle-section"> 
+                <div class="navbar">
+                    <div><a href="Home.html">Home</a></div>
+                    <div style="width:200px; padding-right:0px;"><a href="New.html">New and Popular</a></div>
+                    <div><a href="movies.html">Movies</a></div>
+                    <div><a href="detail.html">Details</a></div>
+                </div>
+            </div>
+            <div class="div-right-section"><span class="material-symbols-outlined">
+                search
+                </span>
+            </div>
+            <div class="div-right-section"><span class="material-symbols-outlined">
+                account_circle
+                </span>
+            </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="container">
+        <!-- COLUMN 1 -->
+        <div class="column">
+            <h1 style="font-size: 35px; margin-top: 30px;margin-bottom: 15px;">The Last of Us</h1>
+            <video height="380" controls>
+                <source src="assets/tlou trailer.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <p> After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope. </p>
+            <p>Cast: Pedro Pascal, Bella Ramsey, Anna Torv, Lamar Johnson</p>
+            <p>Genre: Animation, Comedy</p>
+            <p>Creators: Neil Druckmann, Craig Mazin</p>
+        </div>
+        
+        <!-- COLUMN 2 -->
+        <div class="column">
+            <div class="video-container">
+                <div class="video-image">
+                    <img src="assets/tlou ep 1.jpg" alt="ep1">
+                    <div class="time-duration">40:45</div>
+                </div>
+
+                <div class="video-info">
+                <h3 class="video-title">When You’re Lost in the Darkness</h3>
+                <p class="video-description">Twenty years after a fungal outbreak ravages the planet, survivors Joel and Tess are tasked with a mission that could change everything.</p>
+                </div>
+            </div>
+
+            <div class="video-container">
+                <div class="video-image">
+                    <img src="assets/tlou ep2.jpg" alt="ep2">
+                    <div class="time-duration">40:45</div>
+                </div>
+
+                <div class="video-info">
+                <h3 class="video-title">Infected</h3>
+                <p class="video-description">After escaping the QZ, Joel and Tess clash over Ellie's fate while navigating the ruins of a long-abandoned Boston.</p>
+                </div>
+            </div>
+
+            <div class="video-container">
+                <div class="video-image">
+                    <img src="assets/tlou ep3.jpg" alt="ep3">
+                    <div class="time-duration">40:45</div>
+                </div>
+
+                <div class="video-info">
+                <h3 class="video-title">Long, Long Time</h3>
+                <p class="video-description">When an unknown person approaches his compound, survivalist Bill forges an unlikely connection. Later, Joel and Ellie seek Bill's guidance.</p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-block">
+            <img class="logo-footer" src="assets/jetflix logo-01.png">
+            <ul class="soc-links">
+                <li><a href="#">Support Center<span class="material-symbols-outlined">
+                    support_agent
+                    </span>
+                </a></li>
+                
+                <li><a href="#">Cookie Preferences<span class="material-symbols-outlined">
+                    cookie
+                    </span>
+                </a></li>
+
+                <li><a href="#">Contact Us<span class="material-symbols-outlined">
+                    perm_phone_msg
+                    </span>
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

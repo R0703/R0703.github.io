@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JetFlix - Register</title>
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+
+<body class="register-bg">
+<h1 style="margin-bottom: 25px;">Register account</h1>
+
+<div class="kotak">
+    
+    <div class="container">
+        <div class="columnkiri">
+            <h1>Welcome to JetFlix</h1>
+            <img style="height: 150px;padding-left: 14px;" src="assets/jetflix logo-01.png" alt="logo">
+        </div>
+        
+        <div class="column2">
+            <form action=""method="GET" onsubmit="validateForm(event)" id="regisForm"> 
+                <!-- <label for="Username">Username</label> -->
+                <input type="text"
+                        name="username"
+                        id="username" placeholder="Name">
+                        <br>
+                        <!-- <label for="email">Email</label> -->
+                        <input type="text"
+                        name="email"
+                        id="email"
+                        placeholder="E-mail">
+                        
+                        <br>
+            
+                <!-- <label for="password">password</label> -->
+                        <input type = "password"
+                        name = "password"
+                        id = "password"
+                        placeholder="Password">
+            
+                        <br>
+            
+                    <!-- <label for="confirm">Confirm password</label> -->
+                        <input type = "password"
+                        name = "confirm"
+                        id = "confirm"
+                        placeholder="Confirm Password">
+                        <br>
+            
+                    <!-- <label for="age">Age</label> -->
+                        <input type = "date"
+                        name = "age"
+                        id = "age"
+                        placeholder="Date of Birth">
+                        <br>
+            
+                    <input type="radio"
+                    name="gender"
+                    id="male">
+                    <label for="male">Male</label>
+            
+                    <input type="radio"
+                    name="gender"
+                    id="female">
+                    <label for="Female">Female</label>
+                    <br>
+                    <input type="checkbox"
+                    name="agree"
+                    id="agree">
+                    <label for="agree">I Agree to the terms & conditions</label>
+            
+                    <br>
+            
+                <button class="submit-btn" type="submit">Submit</button>
+                <h4 id="error" style="color:red"></h4>
+            </form>
+            
+        </div>
+
+    </div>
+</div>
+
+<a href="Home.html">
+    <button class="toHome-btn">Back to Home</button>
+</a>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-block">
+        <img class="logo-footer" src="assets/jetflix logo-01.png">
+        <ul class="soc-links">
+            <li><a href="#">Support Center<span class="material-symbols-outlined">
+                support_agent
+                </span>
+            </a></li>
+            
+            <li><a href="#">Cookie Preferences<span class="material-symbols-outlined">
+                cookie
+                </span>
+            </a></li>
+
+            <li><a href="#">Contact Us<span class="material-symbols-outlined">
+                perm_phone_msg
+                </span>
+            </a></li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+</html>

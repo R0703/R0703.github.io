@@ -1,0 +1,69 @@
+.header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    height: 77px;
+    border-width:0.5px;
+    border-style: solid;
+    border-color: #262223;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    background-color: #262223;
+    color: #DDC6B6;
+ 
+    /* max-width: 1440px; */
+    box-shadow: 5px 5px 10px #1f1b1c;
+}
+
+.div-logo-section{
+    width: 150px;
+}
+
+
+.div-middle-section{
+    width: 1000px;
+    padding-right: 300px;
+}
+
+.logo-small{
+    height:66px;
+    padding-bottom:3px;
+    padding-top: 7px;
+    padding-left: 29px;
+}
+
+.navbar{
+margin-top: 25px;
+display: grid;
+grid-template-columns: 1fr 2fr 1fr 1fr;
+column-gap: 73px;
+font-size: 21px;
+}
+
+.navbar a{
+    color: #DDC6B6;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+.navbar a:hover{
+    color: #9a7b65;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:active{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.div-right-section{
+    width:50px;
+    padding-right: 30px;
+}
+
+.material-symbols-outlined{
+    padding-top: 21px;
+    font-size: 38px;
+}
+
